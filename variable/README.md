@@ -4,7 +4,7 @@
 
 너무 당연하겠지만 각 언어마다 변수를 선언하는 방식은 비슷하면서도 다르다.
 
-go는 코틀린이란 묘하게 비슷하면서도 살짝 다르다.     
+go는 코틀린이랑 묘하게 비슷하면서도 살짝 다르다.     
 
 예전 코틀린에서도 [Go's Declaration Syntax](https://go.dev/blog/declaration-syntax)을 소개한 적이 있다.      
 
@@ -248,7 +248,7 @@ go에는 `enum`을 따로 제공하지 않는다.
 
 따라서 이 상수를 이용해서 enum처럼 사용할 수 있는 방법이 있는데 이것은 뒤에 따로 챕터를 마련할 것이다.
 
-# Arithmetic Issues a.k.a Underflow && Overflow
+# Arithmetic Issues a.k.a Underflow & Overflow
 
 지금은 `solidity`버전이 올라가면서 이런 부분이 자연스럽게 해소되었긴 하지만 그 이전에 `Underflow Attack` 이 버그를 이용한 공격이 있었다.      
 

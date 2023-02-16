@@ -7,9 +7,22 @@ Gopher가 되기 위한 좌충우돌 무작정 배워보기
 
 느꼈던 점과 차이점등을 적어가는 일종의 일기장같은 레파지토리가 될 것이다.
 
+참고로 이 레파지토리는 프로그래밍 언어 자체를 처음 입문하시는 분들에게는 불친절할 수 있다.     
+
+대상은 특히 나처럼 자바, 코틀린, 타입스크립트같은 다른 프로그래밍 언어를 어느정도 다뤄본 분들이다.     
+
+# Go Version
+
+2023년 2월 16일자로 go1.20.1버전이 릴리즈됨
+
+
 # AGENDA
 
-[변수](https://github.com/basquiat78/just-go/tree/main/variable)
+[변수](https://github.com/basquiat78/just-go/tree/main/variable)    
+
+[연산자](https://github.com/basquiat78/just-go/tree/main/operator)
+
+[함수](https://github.com/basquiat78/just-go/tree/main/function)
 
 
 
@@ -287,4 +300,21 @@ func test(s int) bool {
 ```
 godoc을 이용한 `API-DOC`은 차후에 한번 다뤄볼 생각이다.
 
+# 사용하지 않는 변수, import는 에러처럼 보여진다.
+
+go를 개발하다 보면 로직내에 사용하지 않는 변수가 있거나 임포트한 패키지중 사용하지 않는 패키지가 있다면 에러처럼 보여준다.
+
+go입장에서는 불필요한 변수와 패키지는 메모리를 잡아먹는다고 생각하는 건지 모르겠다.      
+
+어째든 처음 `vscode`를 설치할 때 go와 관련된 플러그인을 설치했다면 저장시 흥미로운 부분을 볼 수 있다.     
+
+저장할 때 이런 사용하지 않는 변수나 패키지는 저장시 전부 지워버린다.
+
+또한 코드간의 라인을 띄우기 위해 빈 라인을 여러 줄로 나누더라도 저장하는 한줄 띄기로 정렬을 해준다.
+
+또한 다음처럼 
+```
+a,b,c,d -> a, b, c, d
+```
+자동으로 정렬을 해줄 것이다.
 
