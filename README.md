@@ -22,7 +22,7 @@ Gopher가 되기 위한 좌충우돌 무작정 배워보기
 
 [연산자](https://github.com/basquiat78/just-go/tree/main/operator)
 
-[함수](https://github.com/basquiat78/just-go/tree/main/function)
+[함수](https://github.com/basquiat78/just-go/tree/main/functions)
 
 
 
