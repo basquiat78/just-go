@@ -358,7 +358,7 @@ import (
 )
 
 func main() {
-    for k := 0; k < 10 ; {
+	for k := 0; k < 10 ; {
 		fmt.Println("loop index is ", k)
 		k++
 	}
