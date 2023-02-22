@@ -378,7 +378,7 @@ import (
 )
 
 func main() {
-    u := 0
+	u := 0
 	for u < 10 {
 	//for ; u < 10 ; {
 		fmt.Println("loop index is ", u)
@@ -405,7 +405,7 @@ import (
 
 func main() {
 	for {
-    //for true {
+	//for true {
 		fmt.Println("infinity!!")
 	}
 }
