@@ -24,6 +24,8 @@ Gopher가 되기 위한 좌충우돌 무작정 배워보기
 
 [함수](https://github.com/basquiat78/just-go/tree/main/functions)
 
+[제어 흐름](https://github.com/basquiat78/just-go/tree/main/controlflow)
+
 
 
 # Configuration
