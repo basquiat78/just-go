@@ -827,7 +827,7 @@ import (
 )
 
 func main() {
-    myChoice := "coffee"
+	myChoice := "coffee"
     //그러나 나는 우유도 좋아~
 	switch myChoice {
 	case "coffee":
