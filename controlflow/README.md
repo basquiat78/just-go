@@ -787,7 +787,7 @@ const (
 )
 
 func main() {
-    genreType := Jpop
+	genreType := Jpop
 	switch genreType {
 	case Hiphop:
 		fmt.Println("비트 주세요~")
