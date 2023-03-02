@@ -26,6 +26,9 @@ Gopher가 되기 위한 좌충우돌 무작정 배워보기
 
 [제어 흐름](https://github.com/basquiat78/just-go/tree/main/controlflow)
 
+[배열](https://github.com/basquiat78/just-go/tree/main/array)
+
+[구조체](https://github.com/basquiat78/just-go/tree/main/struct)
 
 
 # Configuration
